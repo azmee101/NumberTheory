@@ -1,5 +1,5 @@
 
-// Problem Link : https://vjudge.net/problem/Gym-310911E/origin
+// https://vjudge.net/problem/Gym-310911E/origin
 
 #include <bits/stdc++.h>
 using namespace std;
