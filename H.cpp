@@ -1,4 +1,3 @@
-
 // https://codeforces.com/problemset/problem/230/B
 
 #include <bits/stdc++.h>
