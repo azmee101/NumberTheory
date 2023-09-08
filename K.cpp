@@ -12,7 +12,7 @@ void run_case(){
     
     ll strt, end, mn = (n / __gcd(m, n)) * m;
 
-    if(m > r/n){    // means m*n > r
+    if(m > r/n){  // n > r/m   // means m*n > r
         cout << 0 << '\n';
         return;
     }
