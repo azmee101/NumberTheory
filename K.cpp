@@ -1,3 +1,7 @@
+
+
+// https://vjudge.net/contest/474218#problem/K
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
@@ -7,7 +11,8 @@ void run_case(){
     cin >> n >> m >> l >> r;
     
     ll strt, end, mn = (n / __gcd(m, n)) * m;
-    if(n / __gcd(n, m) > r / m){
+
+    if(m > r/n){    // means m*n > r
         cout << 0 << '\n';
         return;
     }

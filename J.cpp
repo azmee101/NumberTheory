@@ -1,3 +1,6 @@
+
+ // spoj.com/problems/TDPRIMES/en/
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 1e8+7;
